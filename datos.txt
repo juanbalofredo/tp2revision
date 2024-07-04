@@ -1,0 +1,10 @@
+Escuela de Arte Multimedial Da Vinci
+CARRERA: Diseño y Programación Web
+MATERIA: Maquetado y Desarrollo Web
+TRABAJO PRÁCTICO: Trabajo Practico numero 2
+PROFESOR: D’Addezio Alejandro
+ALUMNO: Juan Lofredo
+CUATRIMESTRE: 1er Cuatrimestre
+COMISIÓN: AP
+TURNO: Noche
+FECHA DE ENTREGA: 4 de julio de 2024

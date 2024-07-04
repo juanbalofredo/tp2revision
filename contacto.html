@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contacto</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="itinerario.html">Itinerario</a></li>
+          <li><a href="informacion.html">Información</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Envíanos un mensaje</h2>
+        <form action="gracias.html" >
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+
+          <div>
+            <label for="intereses">Intereses:</label>
+            <select id="intereses" name="intereses[]" multiple>
+              <option value="historia">Historia</option>
+              <option value="cultura">Cultura</option>
+              <option value="naturaleza">Naturaleza</option>
+              <option value="gastronomia">Gastronomía</option>
+              <option value="eventos">Eventos</option>
+            </select>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Nombre del alumno: Juan Lofredo</p>
+      <p>Materia: Maquetado y Desarrollo Web</p>
+      <p>Docente: Carlos Ferrer</p>
+    </footer>
+  </body>
+</html>

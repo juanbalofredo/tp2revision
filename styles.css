@@ -1,0 +1,166 @@
+body {
+  font-family: "Syne", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #002395;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  height: 40px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: #ed2939;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+}
+
+#parisImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#parisImg img {
+  height: 290px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(167, 167, 167);
+  margin: 0;
+  margin-left: 20px;
+  transition: height 1s ease;
+}
+
+#parisImg img:hover {
+  height: 300px;
+  cursor:pointer;
+}
+
+#inicioSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form textarea {
+  height: 100px;
+  width: 300px;
+}
+
+form select,
+form input {
+  height: 40px;
+  width: 300px;
+}
+
+form button {
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  color: antiquewhite;
+  margin-top: 20px;
+}
+
+form button:hover {
+  background-color: rgb(0, 0, 150);
+  cursor: pointer;
+}
+
+.intine {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.intine img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.intine h3 {
+  margin-bottom: 10px;
+}
+
+.intine p {
+  max-width: 600px;
+  margin-left: auto;
+}
+
+.article-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
