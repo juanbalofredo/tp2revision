@@ -12,8 +12,16 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header>
+  <body
+    style="
+      background-image: url(imagenes/barrio.jpg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    "
+  >
+    <header style="width: 100%">
       <h1>Contacto</h1>
       <nav>
         <ul>
@@ -24,10 +32,17 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main
+      style="
+        background-color: aliceblue;
+        width: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
       <section>
         <h2>Envíanos un mensaje</h2>
-        <form action="gracias.html" >
+        <form action="gracias.html">
           <div>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required />
@@ -58,7 +73,7 @@
         </form>
       </section>
     </main>
-    <footer>
+    <footer style="width: 100%">
       <p>Nombre del alumno: Juan Lofredo</p>
       <p>Materia: Maquetado y Desarrollo Web</p>
       <p>Docente: Carlos Ferrer</p>

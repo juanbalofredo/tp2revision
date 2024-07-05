@@ -62,12 +62,12 @@ footer {
   box-shadow: 5px 5px 10px rgb(167, 167, 167);
   margin: 0;
   margin-left: 20px;
-  transition: height 1s ease;
+  transition: 0.3s;
 }
 
 #parisImg img:hover {
   height: 300px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #inicioSection {
@@ -163,4 +163,3 @@ ul {
 li {
   margin-bottom: 10px;
 }
-
